@@ -17,3 +17,21 @@ body {
     min-height: 100vh;
     max-width: 100%;
 }
+
+.upDownAnimation {
+    animation-name: upDownAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes upDownAnimation {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
