@@ -1,0 +1,15 @@
+:root {
+    --bg-gradient: radial-gradient(circle at 96.05364481608073% 5.310923258463542%, rgba(22, 87, 217, 0.53) 0%, 17.5%, rgba(22, 87, 217, 0) 35%), radial-gradient(circle at 0% 96.65751139322917%, #361355 0%, 22.75%, rgba(54, 19, 85, 0) 35%), radial-gradient(circle at 48.9013671875% 49.521484375%, #000000 0%, 100%, rgba(0, 0, 0, 0) 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100vh;
+    max-width: 100%;
+}
